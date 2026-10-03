@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul li {
+        display: flex;
+        padding: 10px 20px;
+        border: 1px solid black;
+        width: 435px;
+        justify-content: space-between;
+      }
+
+      li span {
+        padding: 5px 10px;
+        background-color: red;
+        border-radius: 50%;
+        cursor: pointer;
+        color: white;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="todoInput" placeholder="Add a task" />
+    <button id="addBtn">Add</button>
+    <ul id="todoList"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
